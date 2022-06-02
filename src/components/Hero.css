@@ -1,5 +1,7 @@
 
-
+html {
+    scroll-behavior: smooth;
+  }
 
 /* Extra small devices (phones, 600px and down) */
 /* @media only screen and (max-width: 600px) {
@@ -253,10 +255,11 @@
     }
     .animationContainer{
         overflow: hidden;
+        height: auto;
     }
     .lottie{
-        width: 600px;
-        height: 500px;
+        width: 30%;
+        height: 30%;
     }
     .contact{
         width: 100%;
@@ -356,13 +359,14 @@
     }
     
     .sobreMi{
-        height: auto;
+        height: 100vh;
         width: 100%;
         background-color: #120d21;
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 25px;
     
     }
 
@@ -372,15 +376,70 @@
     }
 
     .description{
+        margin-top: 20px;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 20px;
+        font-size: 1.5vw;
         line-height: 1.15em;
         font-weight: 400;
         color: #fff;
+        
+    }
+
+    .textContainer{
+        text-align: justify;
+  text-justify: inter-word;
     }
 
     .sub{
         width: 200px;
     }
+    .textArea{
+        /* background-color:red; */
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        width:40%;
+    }
+    .Imagen{
+        width: 45%;
+        height: auto;
+        overflow: hidden;
+        /* background-color:red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bitmojiIMG{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+    }
    
+    .proyectos{
+        height: 100vh;
+        width: 100%;
+        background-color: #120d21;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 40px;
+    }
+    .title2{
+        color: #ff4835;
+        font-size: 4vw;
+        line-height: 1.15em;
+        font-weight: 700;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        align-self: center;
+        margin-right: 50px;
+
+    }
+    .titleContainer2{
+        display: flex;
+        flex-direction:row;
+        justify-content:center;
+    }
+  
 }
