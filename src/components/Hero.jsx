@@ -1,9 +1,12 @@
+/* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 import React from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
-import LogoImg from "../assets/marcaDeAgua.png";
-import yo from "../assets/studying.png";
+import Proyecto from "./Proyecto";
 import "./Hero.css";
-
+import imgCalculadora from "../assets/calculadora.png";
+import photoG from "../assets/photoG.jpg";
+import insta from "../assets/insta.png";
+import hforms from "../assets/hforms.jpg";
 
 export default function HeroSection() {
   return (
@@ -27,9 +30,6 @@ export default function HeroSection() {
             <li className="nav-item">
               <a className="nav-link" href="#proyectos">Proyectos</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#scrollspyHeading1">Contacto</a>
-            </li>
           </ul>
         </div>
       </nav>
@@ -50,7 +50,6 @@ export default function HeroSection() {
               </a>
             </div>
           </div>
-          {/* <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" /> */}
           <div className="animationContainer">
             <Player
               autoplay
@@ -73,7 +72,8 @@ export default function HeroSection() {
                 perfeccionando y aprendiendo nuevas habilidades para crecer
                 profesionalmente. Confío en mi habilidad de aprender
                 nuevas tecnologías y ser flexible al cambio. Entre las tecnologías que manejo
-                estan C#, Java, JavaScript, PHP, Python, Bases de datos relacionales y no relacionales.
+                estan C#, Java, JavaScript, PHP, Python, Bases de datos relacionales y no
+                relacionales.
                 Actualmente me enfoco en el desarrollo movil con React Native y en el desarrollo
                 Web con React.
               </span>
@@ -84,21 +84,51 @@ export default function HeroSection() {
             <Player
               autoplay
               loop
-              // src="https://assets5.lottiefiles.com/packages/lf20_wczpanc1.json"
+              // src="https://assets1.lottiefiles.com/packages/lf20_osrbi94c.json"
               src="https://assets8.lottiefiles.com/packages/lf20_xu3jsjrn.json"
               className="bitmojiIMG"
-              setSpeed={3}
+              setSpeed={1}
             />
           </div>
         </div>
         <div className="proyectos" id="proyectos">
-        <div className="textArea">
+          <div className="textArea">
             <div className="titleContainer2">
               <h1 className="title2">Proyectos</h1>
             </div>
           </div>
-        </div>
+          <div className="proyectosContainer">
+            <Proyecto
+              img={imgCalculadora}
+              titulo="Calculadora"
+              tecnologia="React.js"
+              description="Calculadora moderna funcional utilizando componentes y manejo de estados en React. Para el desarrollo del UI se utilizo el principio de Skeumorfismo."
+              repo="https://github.com/esc20936/calculadora"
+            />
+            <Proyecto
+              img={photoG}
+              titulo="PhotoGallery"
+              tecnologia="React Native"
+              description="Aplicación movil de contenido multimedia autogenerado por APIS. Para este proyecto se utilizo como referencia la aplicación de Instagram y de TikTok"
+              repo="https://github.com/esc20936/photoGallery"
+            />
+            <Proyecto
+              img={insta}
+              titulo="Instagram clone"
+              tecnologia="React.js"
+              description="Clon de la aplicación web de Instagram utilizando componentes de react. Todo el contenido es autogenerado por APIS."
+              repo="https://github.com/esc20936/proyecto-1"
+            />
 
+            <Proyecto
+              img={hforms}
+              titulo="HealthForms"
+              tecnologia="React Native, Firebase"
+              description="Health Forms es una aplicación movil pensada para agilizar el proceso de llenado de formularios medicos."
+              repo="https://github.com/esc20936/my-project"
+            />
+          </div>
+        </div>
       </div>
 
     </div>

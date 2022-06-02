@@ -1,0 +1,215 @@
+.ProjectContainer{
+    width: 800px;
+    height: 400px;
+    background-color:#fff;
+    border-radius:15px;
+    margin: 50px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.imgContainer{
+    /* background-color:red; */
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+.projectImg{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.projectTextArea{
+    display: flex;
+    width: 50%;
+    margin-left:20px;
+    height: 100%;
+    /* background-color:blue; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.projectTitle{
+    margin: 10px;
+    margin-bottom:5px;
+}
+.projectTitleTag{
+        color: rgb(20, 20, 20);
+        font-size: 40px;
+        line-height: 1.15em;
+        font-weight: 700;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.projectTechC{
+    margin: 10px;
+    margin-top:5px;
+}
+.projectTech{
+    color: rgb(78, 78, 78);
+        font-size: 20px;
+        line-height: 1.15em;
+        /* font-weight: 700; */
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.projectDescriptionC{
+ width: 400px;
+ margin: 10px;
+}
+
+.projectDescription{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    line-height: 1.15em;
+    font-weight: 300;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.social-iconP{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    margin-top:auto;
+    width: 100%;
+}
+
+.social-iconP:link{ text-decoration: none;}
+.social-iconP:visited{ text-decoration: none;}
+.social-iconP:hover{ text-decoration: none;}
+.social-iconP:active{ text-decoration: none;}
+
+.iconoP{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+    
+    .ProjectContainer{
+        width: 600px;
+        height: 300px;
+    }
+    .projectTitleTag{
+        font-size: 30px;
+       
+}
+
+    
+.projectTech{
+        font-size: 15px;    
+}
+
+.projectDescription{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 1.15em;
+    font-weight: 300;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.projectDescriptionC{
+    width: 90%;
+    margin: 10px;
+   }
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .ProjectContainer{
+        width: 600px;
+        height: 300px;
+    }
+    .projectTitleTag{
+        font-size: 30px;
+       
+}
+
+    
+.projectTech{
+        font-size: 15px;    
+}
+
+.projectDescription{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 1.15em;
+    font-weight: 300;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.projectDescriptionC{
+    width: 90%;
+    margin: 10px;
+   }
+}
+ @media only screen and (min-width: 600px) {
+    .ProjectContainer{
+        width: 500px;
+        height: 300px;
+    }
+    .projectTitleTag{
+        font-size: 30px;
+       
+}
+
+    
+.projectTech{
+        font-size: 15px;    
+}
+
+.projectDescription{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 1.15em;
+    font-weight: 300;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.projectDescriptionC{
+    width: 90%;
+    margin: 10px;
+   }
+ } 
+
+ @media only screen and (max-width: 600px) {
+
+    .ProjectContainer{
+        width: 400px;
+        height: 300px;
+    }
+    .projectTitleTag{
+        font-size: 30px;
+       
+}
+
+    
+.projectTech{
+        font-size: 15px;    
+}
+
+.projectDescription{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 1.15em;
+    font-weight: 300;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.projectDescriptionC{
+    width: 90%;
+    margin:0;
+   }
+
+ }
