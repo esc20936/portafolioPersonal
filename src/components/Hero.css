@@ -1,6 +1,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
 /* Extra small devices (phones, 600px and down) */
@@ -219,6 +220,7 @@ html {
         flex-wrap: wrap;
         flex-flow: row wrap;
         justify-content: space-evenly;
+        width: 100%;
     }
 } 
 
