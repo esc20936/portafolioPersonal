@@ -7,6 +7,7 @@ import imgCalculadora from "../assets/calculadora.png";
 import photoG from "../assets/photoG.jpg";
 import insta from "../assets/insta.png";
 import hforms from "../assets/hforms.jpg";
+import venom from "../assets/venom.png";
 
 export default function HeroSection() {
   return (
@@ -72,10 +73,11 @@ export default function HeroSection() {
                 perfeccionando y aprendiendo nuevas habilidades para crecer
                 profesionalmente. Confío en mi habilidad de aprender
                 nuevas tecnologías y ser flexible al cambio. Entre las tecnologías que manejo
-                estan C#, Java, JavaScript, PHP, Python, Bases de datos relacionales y no
+                están C#, Java, JavaScript, PHP, Python, Bases de datos relacionales y no
                 relacionales.
-                Actualmente me enfoco en el desarrollo movil con React Native y en el desarrollo
-                Web con React.
+                Actualmente me enfoco en el desarrollo móvil con React Native y en el desarrollo
+                Web con React. Hago uso de diferentes herramientas para mis proyectos,
+                tales como versionamiento con GitHub, Webpack, Babel y ESLint.
               </span>
             </div>
 
@@ -102,14 +104,14 @@ export default function HeroSection() {
               img={imgCalculadora}
               titulo="Calculadora"
               tecnologia="React.js"
-              description="Calculadora moderna funcional utilizando componentes y manejo de estados en React. Para el desarrollo del UI se utilizo el principio de Skeumorfismo."
+              description="Calculadora moderna funcional utilizando componentes y manejo de estados en React. Para el desarrollo del UI se utilizó el principio de Skeumorfismo."
               repo="https://github.com/esc20936/calculadora"
             />
             <Proyecto
               img={photoG}
               titulo="PhotoGallery"
               tecnologia="React Native"
-              description="Aplicación movil de contenido multimedia autogenerado por APIS. Para este proyecto se utilizo como referencia la aplicación de Instagram y de TikTok"
+              description="Aplicación móvil de contenido multimedia autogenerado por APIS. Para este proyecto se utilizo como referencia la aplicación de Instagram y de TikTok"
               repo="https://github.com/esc20936/photoGallery"
             />
             <Proyecto
@@ -124,8 +126,15 @@ export default function HeroSection() {
               img={hforms}
               titulo="HealthForms"
               tecnologia="React Native, Firebase"
-              description="Health Forms es una aplicación movil pensada para agilizar el proceso de llenado de formularios medicos."
+              description="Health Forms es una aplicación móvil pensada para agilizar el proceso de llenado de formularios médicos utilizando códigos QR para compartir la información del usuario. "
               repo="https://github.com/esc20936/my-project"
+            />
+            <Proyecto
+              img={venom}
+              titulo="Venom 3D"
+              tecnologia="React, Three.js"
+              description="Modelo en 3D de Venom, una película de ciencia ficción de Marvel. Esta es una muestra de modelos en 3D utilizando Three.js y React para soluciones Web."
+              repo="https://github.com/esc20936/pagVenom"
             />
           </div>
         </div>

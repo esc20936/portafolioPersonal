@@ -187,12 +187,19 @@
 
     .ProjectContainer{
         width: 90%;
-        height: 300px;
+        height: auto;
+        margin: 0;
+        margin-top: 20px;
     }
     .projectTitleTag{
         font-size: 20px;
        
-}
+    }
+
+    .social-iconP{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
 
     
 .projectTech{
@@ -208,8 +215,15 @@
 
 }
 .projectDescriptionC{
-    width: 90%;
-    margin:0;
+    width: 100%;
+    margin:2px;
+   }
+
+   .projectTitle{
+    margin: 2px;
+   }
+   .projectTechC{
+    margin: 2px;
    }
 
  }
