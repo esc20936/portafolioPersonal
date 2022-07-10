@@ -46,7 +46,7 @@ export default function HeroSection() {
               <a className="social-icon" href="https://github.com/esc20936">
                 <i className="fa-brands fa-github icono" />
               </a>
-              <a className="social-icon" href="https://www.linkedin.com/in/pablo-escobar-6188981a2/">
+              <a className="social-icon" href="https://www.linkedin.com/in/pablo-escobar-6188981a2">
                 <i className="fa-brands fa-linkedin icono" />
               </a>
             </div>
