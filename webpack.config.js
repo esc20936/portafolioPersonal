@@ -40,6 +40,13 @@ module.exports = {
           outputPath: "images",
         },
       },
+      {
+        test: /\.(glb|gltf)$/,
+        loader: "file-loader",
+        options: {
+          outputPath: "assets/models",
+        },
+      },
     ],
   },
   resolve: {
