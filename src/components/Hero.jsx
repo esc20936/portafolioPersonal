@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 import React from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
@@ -142,7 +143,7 @@ export default function HeroSection() {
         <div className="ContactSection" id="contactSection">
           <div className="textArea">
             <div className="titleContainer">
-              <h1 className="title2">Lets talk, but you first!</h1>
+              <h1 className="title2">Let's talk, but you first!</h1>
             </div>
             <span className="description">
               ( Feel free to move me around )
